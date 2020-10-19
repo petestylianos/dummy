@@ -28,9 +28,23 @@ Very serious stuff.
 
 ``` r
 library(dummy)
-dummy::random_numbers
-#>  [1] -0.52117113  0.12125222  1.25613208  0.62883932 -0.87529190  0.73412077
-#>  [7] -0.49844003  0.00854915  0.61912947  0.63267304
+library(tibble)
+library(magrittr)
+dummy::random_numbers %>% 
+  as_tibble()
+#> # A tibble: 10 x 1
+#>       value
+#>       <dbl>
+#>  1 -0.521  
+#>  2  0.121  
+#>  3  1.26   
+#>  4  0.629  
+#>  5 -0.875  
+#>  6  0.734  
+#>  7 -0.498  
+#>  8  0.00855
+#>  9  0.619  
+#> 10  0.633
 ```
 
 More examples to come soon.

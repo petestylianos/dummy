@@ -37,7 +37,10 @@ It produces 10 random numbers from the standard normal distribution. Very seriou
 
 ```{r example}
 library(dummy)
-dummy::random_numbers
+library(tibble)
+library(magrittr)
+dummy::random_numbers %>% 
+  as_tibble()
 ```
 
 More examples to come soon.

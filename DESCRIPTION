@@ -1,5 +1,5 @@
 Package: dummy
-Title: This packages is a dummy package to help me learn the structure of R packages.
+Title: This packages is a dummy package to help me learn the structure of R packages
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "First",
@@ -17,3 +17,6 @@ URL: https://github.com/petestylianos/dummy
 BugReports: https://github.com/petestylianos/dummy/issues
 Depends: 
     R (>= 2.10)
+Imports: 
+    tibble,
+    magrittr
