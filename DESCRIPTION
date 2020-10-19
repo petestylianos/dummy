@@ -21,4 +21,6 @@ Imports:
     tibble,
     magrittr
 Suggests: 
-    knitr
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

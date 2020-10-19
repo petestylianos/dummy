@@ -1,0 +1,30 @@
+---
+title: "dummy_explain"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{dummy_explain}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(dummy)
+```
+
+The __purpose of this vignette is to teach you something dum__
+
+```{r}
+dummy::dummy_function(3)
+```
+
+<span style="color:blue;">That's indeed dum</span>
+
+
+
