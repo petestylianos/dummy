@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# dummy
+# <span style="color:pink;">dummy</span>
 
 <!-- badges: start -->
 
@@ -9,11 +9,16 @@
 status](https://github.com/petestylianos/dummy/workflows/R-CMD-check/badge.svg)](https://github.com/petestylianos/dummy/actions)
 <!-- badges: end -->
 
+<h2>
+
 The goal of dummy is to teach ME how to create R packages.
+
+</h2>
 
 ## Installation
 
-You can install dummy from from [GitHub](https://github.com/) with:
+<span style="color:blue;font-size:30px">You can install dummy from from
+[GitHub](https://github.com/) with:</span>
 
 ``` r
 # install.packages("devtools")
