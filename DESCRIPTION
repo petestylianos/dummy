@@ -7,9 +7,8 @@ Authors@R:
            role = c("aut", "cre"),
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: I created this dummy package for the purpose of learning the structure and
-the workflow of creating R packages in order to create more advanced packages in the coming 
-future.
+Description: I created this dummy package for the purpose of learning the structure and the workflow of creating R packages in order to create more advanced packages in the 
+ coming future.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
