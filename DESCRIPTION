@@ -1,5 +1,5 @@
 Package: dummy
-Title: What the Package Does (One Line, Title Case)
+Title: This packages is a dummy package to help me learn the structure of R packages.
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "First",
@@ -7,7 +7,9 @@ Authors@R:
            role = c("aut", "cre"),
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: I created this dummy package for the purpose of learning the structure and
+the workflow of creating R packages in order to create more advanced packages in the coming 
+future.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
