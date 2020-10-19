@@ -1,0 +1,17 @@
+template:
+ params:
+  bootswatch: darkly
+
+navbar:
+structure:
+   left: [help]
+   right: [github]
+components:
+  home: ~
+  help:
+   text: Get started
+   href: articles/crop.html
+GitHub:
+ icon: fa-github fa-lg
+ href: a link www…
+
