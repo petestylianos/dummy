@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![R build
+status](https://github.com/petestylianos/dummy/workflows/R-CMD-check/badge.svg)](https://github.com/petestylianos/dummy/actions)
 <!-- badges: end -->
 
 The goal of dummy is to teach ME how to create R packages.

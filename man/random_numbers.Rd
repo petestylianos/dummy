@@ -11,7 +11,7 @@ An object of class \code{numeric} of length 10.
 Coronavirus package \url{https://panagiotis-stylianos.netlify.app}{Web}
 }
 \usage{
-Random Numbers for random tests
+random_numbers
 }
 \description{
 This function produces 10 random numbers.
